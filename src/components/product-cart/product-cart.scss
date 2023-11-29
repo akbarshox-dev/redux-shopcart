@@ -1,0 +1,39 @@
+.product { 
+    width: 300px;
+    padding: 10px 30px;
+    background: #fff;
+    border-radius: 10px;
+    .product__image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .product__text {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        .product__text-price {
+            font-size: 16px;
+            color: #4d4a4a;
+            font-family: sans-serif;
+        }
+    }
+
+    .product__name {
+        margin-bottom: 10px;
+    }  
+
+    .product__button {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 10px 0px;
+        font-family: sans-serif;
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        background: #fd7e14;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
