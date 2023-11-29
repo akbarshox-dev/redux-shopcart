@@ -1,0 +1,17 @@
+.shop-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    button {
+        border: none;
+        background-color: red;
+        border-radius: 10px;
+        padding: 10px 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+}
