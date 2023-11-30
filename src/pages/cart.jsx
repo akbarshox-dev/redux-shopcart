@@ -10,7 +10,6 @@ export default function Carts() {
         dispatch({ type: "REMOVE_PRODUCT", payload: product });
     }
 
-    console.log(products)
 
 
     return <div style={{ marginTop: "40px", display: "flex", flexWrap: "wrap", gap: "10px" }} className="products-box  container">
